@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>address-nearby</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Booking---Pickup+Drop-1" transform="translate(-173.000000, -157.000000)" fill-rule="nonzero">
+            <g id="address-nearby" transform="translate(173.000000, 157.000000)">
+                <circle id="tag" fill="#F0F2FF" cx="10" cy="10" r="10"></circle>
+                <g id="current_ico" transform="translate(4.000000, 4.000000)" fill="#4C69FE">
+                    <circle id="tag" cx="6" cy="6" r="3"></circle>
+                    <path d="M6,12 C2.6862915,12 0,9.3137085 0,6 C0,2.6862915 2.6862915,0 6,0 C9.3137085,0 12,2.6862915 12,6 C12,9.3137085 9.3137085,12 6,12 Z M6,11 C8.76142375,11 11,8.76142375 11,6 C11,3.23857625 8.76142375,1 6,1 C3.23857625,1 1,3.23857625 1,6 C1,8.76142375 3.23857625,11 6,11 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

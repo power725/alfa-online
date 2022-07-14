@@ -1,0 +1,42 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="se.snapcode.alfaonline.sormland">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+      android:name=".MainApplication"
+      android:label="@string/app_name"
+      android:icon="@mipmap/ic_launcher"
+      android:roundIcon="@mipmap/ic_launcher_round"
+      android:allowBackup="false"
+      android:theme="@style/AppTheme">
+      <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+      <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="@string/GOOGLE_MAPS_API_KEY"/>
+      <meta-data android:name="io.sentry.anr.enable" android:value="false" />
+      <activity
+        android:name=".MainActivity"
+        android:label="@string/app_name"
+        android:launchMode="singleTop"
+        android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+        android:windowSoftInputMode="adjustResize">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        <intent-filter android:label="filter_react_native">
+          <action android:name="android.intent.action.VIEW" />
+          <category android:name="android.intent.category.DEFAULT" />
+          <category android:name="android.intent.category.BROWSABLE" />
+          <data android:scheme="@string/URL_SCHEME" android:host="" /> // A
+        </intent-filter>
+      </activity>
+      <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+      <meta-data android:name="com.onesignal.NotificationServiceExtension"
+      android:value="com.onesignal.OneSignalNotificationExtender.NotificationServiceExtension" />
+    </application>
+
+</manifest>

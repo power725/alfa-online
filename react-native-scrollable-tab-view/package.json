@@ -1,0 +1,67 @@
+{
+  "_from": "github:ptomasroos/react-native-scrollable-tab-view#master",
+  "_id": "react-native-scrollable-tab-view@1.0.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/react-native-scrollable-tab-view",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "react-native-scrollable-tab-view@github:ptomasroos/react-native-scrollable-tab-view#master",
+    "name": "react-native-scrollable-tab-view",
+    "escapedName": "react-native-scrollable-tab-view",
+    "rawSpec": "github:ptomasroos/react-native-scrollable-tab-view#master",
+    "saveSpec": "github:ptomasroos/react-native-scrollable-tab-view#master",
+    "fetchSpec": null,
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "github:ptomasroos/react-native-scrollable-tab-view#1371236e91c217e2f42468e355419f83410e3133",
+  "_spec": "react-native-scrollable-tab-view@github:ptomasroos/react-native-scrollable-tab-view#master",
+  "_where": "D:\\alpha\\alfaonlinev3",
+  "author": {
+    "name": "Brent Vatne"
+  },
+  "bugs": {
+    "url": "https://github.com/brentvatne/react-native-scrollable-tab-view/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@react-native-community/viewpager": "3.3.0",
+    "create-react-class": "^15.6.2",
+    "prop-types": "^15.6.0",
+    "react-timer-mixin": "^0.13.3"
+  },
+  "deprecated": false,
+  "description": "[![npm version](https://badge.fury.io/js/react-native-scrollable-tab-view.svg)](https://badge.fury.io/js/react-native-scrollable-tab-view)",
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.1.1"
+  },
+  "homepage": "https://github.com/brentvatne/react-native-scrollable-tab-view#readme",
+  "keywords": [
+    "react-native-component",
+    "react-component",
+    "react-native",
+    "ios",
+    "tab",
+    "scrollable"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-scrollable-tab-view",
+  "peerDependencies": {
+    "react-native": ">=0.20.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brentvatne/react-native-scrollable-tab-view.git"
+  },
+  "scripts": {
+    "lint": "eslint -c .eslintrc . --ignore-path .gitignore",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}

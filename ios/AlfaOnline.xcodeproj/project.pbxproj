@@ -1,0 +1,1509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* AlfaOnlineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AlfaOnlineTests.m */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2925DFC161224970B42BCD06 /* Mukta-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 444865413A09408CA21ED4D0 /* Mukta-Light.ttf */; };
+		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* AlfaOnlineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AlfaOnlineTests.m */; };
+		4B0BCF451C6C3891B3FCAAC1 /* libPods-AlfaOnline.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61AF24C4CA7EDE4D70D27F20 /* libPods-AlfaOnline.a */; };
+		61F6960FB1DE45CE8FA90649 /* Mukta-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A669A35D795F4A30A1FEF105 /* Mukta-ExtraLight.ttf */; };
+		821E5CE1D432856A1E194044 /* libPods-OneSignalNotificationServiceExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA75B94A235F1C7000CA8E0B /* libPods-OneSignalNotificationServiceExtension.a */; };
+		9100D82038FA42A389D9F5BD /* Mukta-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 513796BD25CF4E6A9D551C74 /* Mukta-Medium.ttf */; };
+		96CD3227DD5DC63B9D3AD358 /* libPods-AlfaOnlineTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CA98841E3048CE5F934746 /* libPods-AlfaOnlineTests.a */; };
+		97DA8479363054F3B97B1D1F /* libPods-AlfaOnline-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A8C78140166951D160E94A /* libPods-AlfaOnline-tvOS.a */; };
+		A1A09FF0BF734D70822BB5CF /* Mukta-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7CF920B5C894365A7206A6A /* Mukta-Bold.ttf */; };
+		B7F7BE926EC64394BA7584A6 /* Mukta-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89652069FA84480A85A73FA2 /* Mukta-ExtraBold.ttf */; };
+		D9C7EA66910344EBC54FC59F /* libPods-AlfaOnline-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 716ED5BAA29A0EAD5F68E29B /* libPods-AlfaOnline-tvOSTests.a */; };
+		DA7B2BC5236848A200FFB75F /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DA7B2BC4236848A200FFB75F /* Config.xcconfig */; };
+		DA8F285A235D03D00041B826 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8F2859235D03D00041B826 /* File.swift */; };
+		DAF95240235F1A6600E51A2C /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF9523F235F1A6600E51A2C /* NotificationService.m */; };
+		DAF95244235F1A6600E51A2C /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DAF9523C235F1A6600E51A2C /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DF30A426B87C4C3DBC874993 /* Mukta-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 558DBFF708F94F42BE94B63B /* Mukta-SemiBold.ttf */; };
+		E1B7CF05A74B4790B11C9BB4 /* Mukta-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0EA6992529BA4F89858A2CDD /* Mukta-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = AlfaOnline;
+		};
+		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
+			remoteInfo = "AlfaOnline-tvOS";
+		};
+		DAF95242235F1A6600E51A2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAF9523B235F1A6600E51A2C;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DAF95237235E3E0F00E51A2C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DAF95244235F1A6600E51A2C /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* AlfaOnlineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlfaOnlineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* AlfaOnlineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlfaOnlineTests.m; sourceTree = "<group>"; };
+		03855C4AEC384F8AA6E092CE /* libRNTextInputMask.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNTextInputMask.a; sourceTree = "<group>"; };
+		0EA6992529BA4F89858A2CDD /* Mukta-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mukta-Regular.ttf"; path = "../assets/fonts/Mukta-Regular.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Serviceresor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Serviceresor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AlfaOnline/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AlfaOnline/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AlfaOnline/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AlfaOnline/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AlfaOnline/main.m; sourceTree = "<group>"; };
+		16308E2D278ADE407C2FECFA /* Pods-AlfaOnline-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlfaOnline-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlfaOnline-OneSignalNotificationServiceExtension/Pods-AlfaOnline-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		18F65B73904389BE2522D5D3 /* Pods-AlfaOnline-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlfaOnline-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlfaOnline-tvOS/Pods-AlfaOnline-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* AlfaOnline-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AlfaOnline-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* AlfaOnline-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AlfaOnline-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30BF7C9FFE2F3E2A361D1AF9 /* Pods-AlfaOnline.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlfaOnline.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlfaOnline/Pods-AlfaOnline.debug.xcconfig"; sourceTree = "<group>"; };
+		4151076B9F68E65F186207E7 /* Pods-AlfaOnlineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlfaOnlineTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlfaOnlineTests/Pods-AlfaOnlineTests.release.xcconfig"; sourceTree = "<group>"; };
+		444865413A09408CA21ED4D0 /* Mukta-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mukta-Light.ttf"; path = "../assets/fonts/Mukta-Light.ttf"; sourceTree = "<group>"; };
+		46971303F0A911299FC7E386 /* Pods-AlfaOnline-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlfaOnline-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlfaOnline-OneSignalNotificationServiceExtension/Pods-AlfaOnline-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		4A93F47D81F6BAE208680AF4 /* Pods-AlfaOnline-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlfaOnline-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlfaOnline-tvOS/Pods-AlfaOnline-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		4B0058777C9D676AABF710C3 /* Pods-AlfaOnline.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlfaOnline.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlfaOnline/Pods-AlfaOnline.release.xcconfig"; sourceTree = "<group>"; };
+		513796BD25CF4E6A9D551C74 /* Mukta-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mukta-Medium.ttf"; path = "../assets/fonts/Mukta-Medium.ttf"; sourceTree = "<group>"; };
+		558DBFF708F94F42BE94B63B /* Mukta-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mukta-SemiBold.ttf"; path = "../assets/fonts/Mukta-SemiBold.ttf"; sourceTree = "<group>"; };
+		61AF24C4CA7EDE4D70D27F20 /* libPods-AlfaOnline.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlfaOnline.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F013AF2E1B8B576FF708769 /* Pods-AlfaOnline-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlfaOnline-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlfaOnline-tvOSTests/Pods-AlfaOnline-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		716ED5BAA29A0EAD5F68E29B /* libPods-AlfaOnline-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlfaOnline-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		716F2A3D9D084279867A7AB6 /* libRNViewOverflow.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNViewOverflow.a; sourceTree = "<group>"; };
+		728A9BF683CD4917BC0EB9A2 /* InputMaskMac.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = InputMaskMac.framework; path = System/Library/Frameworks/InputMaskMac.framework; sourceTree = SDKROOT; };
+		8594DEF46ADC131E32CF0DA0 /* Pods-AlfaOnline-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlfaOnline-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlfaOnline-tvOSTests/Pods-AlfaOnline-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		89652069FA84480A85A73FA2 /* Mukta-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mukta-ExtraBold.ttf"; path = "../assets/fonts/Mukta-ExtraBold.ttf"; sourceTree = "<group>"; };
+		8A264178A0E475C2CEC71CBF /* libPods-OneSignalNotificationServiceExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OneSignalNotificationServiceExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F5EE6EEAC3F7AC01473F17C /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		A580112AA05242898B45531E /* libReactNativeConfig.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libReactNativeConfig.a; sourceTree = "<group>"; };
+		A6679043BEA34B3AA2198B75 /* InputMaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = InputMaskTests.xctest; sourceTree = "<group>"; };
+		A669A35D795F4A30A1FEF105 /* Mukta-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mukta-ExtraLight.ttf"; path = "../assets/fonts/Mukta-ExtraLight.ttf"; sourceTree = "<group>"; };
+		B306AEF2B6534E73A519DDBF /* InputMask.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = InputMask.framework; path = System/Library/Frameworks/InputMask.framework; sourceTree = SDKROOT; };
+		B9CA98841E3048CE5F934746 /* libPods-AlfaOnlineTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlfaOnlineTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC695FA21D4A57000A7EC85 /* AlfaOnline.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = AlfaOnline.entitlements; path = AlfaOnline/AlfaOnline.entitlements; sourceTree = "<group>"; };
+		BFC6960E21D4A65000A7EC85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BFC6961021D4A65900A7EC85 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C49A01B565EAECA1641DF930 /* Pods-AlfaOnlineTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlfaOnlineTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlfaOnlineTests/Pods-AlfaOnlineTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD6E86389F79DA8502C9E8A8 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		D7A8C78140166951D160E94A /* libPods-AlfaOnline-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlfaOnline-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA75B949235F1B7400CA8E0B /* OneSignalNotificationServiceExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OneSignalNotificationServiceExtension.entitlements; sourceTree = "<group>"; };
+		DA75B94A235F1C7000CA8E0B /* libPods-OneSignalNotificationServiceExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-OneSignalNotificationServiceExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA7B2BC4236848A200FFB75F /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		DA8F2858235D03CF0041B826 /* AlfaOnline-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlfaOnline-Bridging-Header.h"; sourceTree = "<group>"; };
+		DA8F2859235D03D00041B826 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		DAF9523C235F1A6600E51A2C /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF9523E235F1A6600E51A2C /* NotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationService.h; sourceTree = "<group>"; };
+		DAF9523F235F1A6600E51A2C /* NotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
+		DAF95241235F1A6600E51A2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7CF920B5C894365A7206A6A /* Mukta-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mukta-Bold.ttf"; path = "../assets/fonts/Mukta-Bold.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96CD3227DD5DC63B9D3AD358 /* libPods-AlfaOnlineTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B0BCF451C6C3891B3FCAAC1 /* libPods-AlfaOnline.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97DA8479363054F3B97B1D1F /* libPods-AlfaOnline-tvOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C7EA66910344EBC54FC59F /* libPods-AlfaOnline-tvOSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF95239235F1A6600E51A2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821E5CE1D432856A1E194044 /* libPods-OneSignalNotificationServiceExtension.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* AlfaOnlineTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* AlfaOnlineTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = AlfaOnlineTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* AlfaOnline */ = {
+			isa = PBXGroup;
+			children = (
+				BFC695FA21D4A57000A7EC85 /* AlfaOnline.entitlements */,
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = AlfaOnline;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA75B94A235F1C7000CA8E0B /* libPods-OneSignalNotificationServiceExtension.a */,
+				BFC6961021D4A65900A7EC85 /* SystemConfiguration.framework */,
+				BFC6960E21D4A65000A7EC85 /* UIKit.framework */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				61AF24C4CA7EDE4D70D27F20 /* libPods-AlfaOnline.a */,
+				D7A8C78140166951D160E94A /* libPods-AlfaOnline-tvOS.a */,
+				716ED5BAA29A0EAD5F68E29B /* libPods-AlfaOnline-tvOSTests.a */,
+				B9CA98841E3048CE5F934746 /* libPods-AlfaOnlineTests.a */,
+				8A264178A0E475C2CEC71CBF /* libPods-OneSignalNotificationServiceExtension.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35CE8230688F4894BD7FDB09 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E7CF920B5C894365A7206A6A /* Mukta-Bold.ttf */,
+				89652069FA84480A85A73FA2 /* Mukta-ExtraBold.ttf */,
+				A669A35D795F4A30A1FEF105 /* Mukta-ExtraLight.ttf */,
+				444865413A09408CA21ED4D0 /* Mukta-Light.ttf */,
+				513796BD25CF4E6A9D551C74 /* Mukta-Medium.ttf */,
+				0EA6992529BA4F89858A2CDD /* Mukta-Regular.ttf */,
+				558DBFF708F94F42BE94B63B /* Mukta-SemiBold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				DA7B2BC4236848A200FFB75F /* Config.xcconfig */,
+				DA8F2859235D03D00041B826 /* File.swift */,
+				13B07FAE1A68108700A75B9A /* AlfaOnline */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* AlfaOnlineTests */,
+				DAF9523D235F1A6600E51A2C /* OneSignalNotificationServiceExtension */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				35CE8230688F4894BD7FDB09 /* Resources */,
+				E0A54114239AD63D96F1DF14 /* Pods */,
+				BF818038216816710089A940 /* Recovered References */,
+				DA8F2858235D03CF0041B826 /* AlfaOnline-Bridging-Header.h */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* Serviceresor.app */,
+				00E356EE1AD99517003FC87E /* AlfaOnlineTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* AlfaOnline-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* AlfaOnline-tvOSTests.xctest */,
+				DAF9523C235F1A6600E51A2C /* OneSignalNotificationServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF818038216816710089A940 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				03855C4AEC384F8AA6E092CE /* libRNTextInputMask.a */,
+				716F2A3D9D084279867A7AB6 /* libRNViewOverflow.a */,
+				A580112AA05242898B45531E /* libReactNativeConfig.a */,
+				B306AEF2B6534E73A519DDBF /* InputMask.framework */,
+				728A9BF683CD4917BC0EB9A2 /* InputMaskMac.framework */,
+				A6679043BEA34B3AA2198B75 /* InputMaskTests.xctest */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		DAF9523D235F1A6600E51A2C /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				DA75B949235F1B7400CA8E0B /* OneSignalNotificationServiceExtension.entitlements */,
+				DAF9523E235F1A6600E51A2C /* NotificationService.h */,
+				DAF9523F235F1A6600E51A2C /* NotificationService.m */,
+				DAF95241235F1A6600E51A2C /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		E0A54114239AD63D96F1DF14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30BF7C9FFE2F3E2A361D1AF9 /* Pods-AlfaOnline.debug.xcconfig */,
+				4B0058777C9D676AABF710C3 /* Pods-AlfaOnline.release.xcconfig */,
+				18F65B73904389BE2522D5D3 /* Pods-AlfaOnline-tvOS.debug.xcconfig */,
+				4A93F47D81F6BAE208680AF4 /* Pods-AlfaOnline-tvOS.release.xcconfig */,
+				6F013AF2E1B8B576FF708769 /* Pods-AlfaOnline-tvOSTests.debug.xcconfig */,
+				8594DEF46ADC131E32CF0DA0 /* Pods-AlfaOnline-tvOSTests.release.xcconfig */,
+				C49A01B565EAECA1641DF930 /* Pods-AlfaOnlineTests.debug.xcconfig */,
+				4151076B9F68E65F186207E7 /* Pods-AlfaOnlineTests.release.xcconfig */,
+				46971303F0A911299FC7E386 /* Pods-AlfaOnline-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				16308E2D278ADE407C2FECFA /* Pods-AlfaOnline-OneSignalNotificationServiceExtension.release.xcconfig */,
+				CD6E86389F79DA8502C9E8A8 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				8F5EE6EEAC3F7AC01473F17C /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* AlfaOnlineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AlfaOnlineTests" */;
+			buildPhases = (
+				B480505D1ED95F8FA90F9433 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = AlfaOnlineTests;
+			productName = AlfaOnlineTests;
+			productReference = 00E356EE1AD99517003FC87E /* AlfaOnlineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* AlfaOnline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AlfaOnline" */;
+			buildPhases = (
+				2E222148CA4EC8D3FC346290 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				BFD291932172A1F6002D6904 /* Input Mask Workaround */,
+				43975E00AF6ED7BEF8364536 /* [CP] Copy Pods Resources */,
+				DA2530DB235CA91400A81985 /* Start Packager */,
+				DAF95237235E3E0F00E51A2C /* Embed App Extensions */,
+				CCA65B86697DDD3D98834FC1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAF95243235F1A6600E51A2C /* PBXTargetDependency */,
+			);
+			name = AlfaOnline;
+			productName = AlfaOnline;
+			productReference = 13B07F961A680F5B00A75B9A /* Serviceresor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E47A1E0B4A5D006451C7 /* AlfaOnline-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "AlfaOnline-tvOS" */;
+			buildPhases = (
+				D49EDA3A6787780E70C02EF1 /* [CP] Check Pods Manifest.lock */,
+				2D02E4771E0B4A5D006451C7 /* Sources */,
+				2D02E4781E0B4A5D006451C7 /* Frameworks */,
+				2D02E4791E0B4A5D006451C7 /* Resources */,
+				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AlfaOnline-tvOS";
+			productName = "AlfaOnline-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* AlfaOnline-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E48F1E0B4A5D006451C7 /* AlfaOnline-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "AlfaOnline-tvOSTests" */;
+			buildPhases = (
+				941047CF28FDBAF466E338AB /* [CP] Check Pods Manifest.lock */,
+				2D02E48C1E0B4A5D006451C7 /* Sources */,
+				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
+				2D02E48E1E0B4A5D006451C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
+			);
+			name = "AlfaOnline-tvOSTests";
+			productName = "AlfaOnline-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* AlfaOnline-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAF9523B235F1A6600E51A2C /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF95245235F1A6600E51A2C /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				17CBE1E6D8EE9EB52E527AD7 /* [CP] Check Pods Manifest.lock */,
+				DAF95238235F1A6600E51A2C /* Sources */,
+				DAF95239235F1A6600E51A2C /* Frameworks */,
+				DAF9523A235F1A6600E51A2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = DAF9523C235F1A6600E51A2C /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				DefaultBuildSystemTypeForWorkspace = Original;
+				LastUpgradeCheck = 940;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = XWKP65T436;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = XWKP65T436;
+						LastSwiftMigration = 1110;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.NetworkExtensions.iOS = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					2D02E47A1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E48F1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+					DAF9523B235F1A6600E51A2C = {
+						CreatedOnToolsVersion = 11.1;
+						DevelopmentTeam = XWKP65T436;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AlfaOnline" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* AlfaOnline */,
+				00E356ED1AD99517003FC87E /* AlfaOnlineTests */,
+				2D02E47A1E0B4A5D006451C7 /* AlfaOnline-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* AlfaOnline-tvOSTests */,
+				DAF9523B235F1A6600E51A2C /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				A1A09FF0BF734D70822BB5CF /* Mukta-Bold.ttf in Resources */,
+				B7F7BE926EC64394BA7584A6 /* Mukta-ExtraBold.ttf in Resources */,
+				61F6960FB1DE45CE8FA90649 /* Mukta-ExtraLight.ttf in Resources */,
+				2925DFC161224970B42BCD06 /* Mukta-Light.ttf in Resources */,
+				DA7B2BC5236848A200FFB75F /* Config.xcconfig in Resources */,
+				9100D82038FA42A389D9F5BD /* Mukta-Medium.ttf in Resources */,
+				E1B7CF05A74B4790B11C9BB4 /* Mukta-Regular.ttf in Resources */,
+				DF30A426B87C4C3DBC874993 /* Mukta-SemiBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4791E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF9523A235F1A6600E51A2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		17CBE1E6D8EE9EB52E527AD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneSignalNotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		2E222148CA4EC8D3FC346290 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlfaOnline-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43975E00AF6ED7BEF8364536 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlfaOnline/Pods-AlfaOnline-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPArrowLeft.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPArrowLeft@2x.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPArrowRight.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPArrowRight@2x.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPCheckmark.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPCheckmark@2x.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPCloseButton.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPCloseButton@2x.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPCloseButton@3x.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPDismissKeyboard.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPDismissKeyboard@2x.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPLogo.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPLogo@2x.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/placeholder-image.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/MPTakeoverNotificationViewController~ipad.xib",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/MPTakeoverNotificationViewController~iphonelandscape.xib",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/MPTakeoverNotificationViewController~iphoneportrait.xib",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPArrowLeft.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPArrowLeft@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPArrowRight.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPArrowRight@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPCheckmark.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPCheckmark@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPCloseButton.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPCloseButton@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPCloseButton@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPDismissKeyboard.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPDismissKeyboard@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPLogo.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPLogo@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/placeholder-image.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPTakeoverNotificationViewController~ipad.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPTakeoverNotificationViewController~iphonelandscape.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPTakeoverNotificationViewController~iphoneportrait.nib",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlfaOnline/Pods-AlfaOnline-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		941047CF28FDBAF466E338AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlfaOnline-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B480505D1ED95F8FA90F9433 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlfaOnlineTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFD291932172A1F6002D6904 /* Input Mask Workaround */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Input Mask Workaround";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "EXTRA_DIR=\"${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Frameworks/InputMask.framework/Frameworks\"\n\nif [[ -d \"${EXTRA_DIR}\" ]]; then\nrm -rf \"${EXTRA_DIR}\"\nfi\n";
+		};
+		CCA65B86697DDD3D98834FC1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlfaOnline/Pods-AlfaOnline-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignalXCFramework/OneSignal.framework/OneSignal",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OneSignal.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlfaOnline/Pods-AlfaOnline-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D49EDA3A6787780E70C02EF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlfaOnline-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA2530DB235CA91400A81985 /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* AlfaOnlineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				DA8F285A235D03D00041B826 /* File.swift in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4771E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD954D1E0B4F2C00145EB5 /* AlfaOnlineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF95238235F1A6600E51A2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF95240235F1A6600E51A2C /* NotificationService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* AlfaOnline */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02E47A1E0B4A5D006451C7 /* AlfaOnline-tvOS */;
+			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+		DAF95243235F1A6600E51A2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAF9523B235F1A6600E51A2C /* OneSignalNotificationServiceExtension */;
+			targetProxy = DAF95242235F1A6600E51A2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = AlfaOnline;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C49A01B565EAECA1641DF930 /* Pods-AlfaOnlineTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XWKP65T436;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/RNTextInputMask/RNTextInputMask/**",
+					"$(SRCROOT)/../node_modules/react-native-view-overflow/ios",
+					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/**",
+				);
+				INFOPLIST_FILE = AlfaOnlineTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)/System/Library/Frameworks\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)/System/Library/Frameworks\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Serviceresor.app/Serviceresor";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4151076B9F68E65F186207E7 /* Pods-AlfaOnlineTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = XWKP65T436;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/RNTextInputMask/RNTextInputMask/**",
+					"$(SRCROOT)/../node_modules/react-native-view-overflow/ios",
+					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/**",
+				);
+				INFOPLIST_FILE = AlfaOnlineTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)/System/Library/Frameworks\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)/System/Library/Frameworks\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Serviceresor.app/Serviceresor";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30BF7C9FFE2F3E2A361D1AF9 /* Pods-AlfaOnline.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = AlfaOnline/AlfaOnline.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = XWKP65T436;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/GoogleMaps/Base/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleMaps/Maps/Frameworks\"",
+					"\"${PODS_ROOT}/OneSignal/iOS_SDK/OneSignalSDK/Framework\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PODS_ROOT)/Headers/Private/React-Core\"",
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/DoubleConversion\"",
+					"\"${PODS_ROOT}/Headers/Public/FBLazyVector\"",
+					"\"${PODS_ROOT}/Headers/Public/FBReactNativeSpec\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTRequired\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTTypeSafety\"",
+					"\"${PODS_ROOT}/Headers/Public/React-Core\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTBlob\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTText\"",
+					"\"${PODS_ROOT}/Headers/Public/React-cxxreact\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsi\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsiexecutor\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsinspector\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactCommon\"",
+					"\"${PODS_ROOT}/Headers/Public/Yoga\"",
+					"\"${PODS_ROOT}/Headers/Public/glog\"",
+				);
+				INFOPLIST_FILE = AlfaOnline/Info.plist;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional";
+				INFOPLIST_PREFIX_HEADER = "${BUILD_DIR}/GeneratedInfoPlistDotEnv.h";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/BVLinearGradient\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBReactNativeSpec\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Folly\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Google-Maps-iOS-Utils\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardManager\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Mixpanel\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCTTypeSafety\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNDeviceInfo\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNI18n\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNSVG\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-Core\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-CoreModules\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTActionSheet\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTAnimation\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTBlob\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTLinking\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTNetwork\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTSettings\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTText\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTVibration\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-cxxreact\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsi\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsiexecutor\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsinspector\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ReactNativeKeyboardManager\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Yoga\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/glog\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-config\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-google-maps\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-maps\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-mixpanel\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-onesignal\"",
+				);
+				MARKETING_VERSION = 3.2.2;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.snapcode.alfaonline.sormland;
+				PRODUCT_NAME = Serviceresor;
+				SWIFT_OBJC_BRIDGING_HEADER = "AlfaOnline-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B0058777C9D676AABF710C3 /* Pods-AlfaOnline.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = AlfaOnline/AlfaOnline.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XWKP65T436;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/GoogleMaps/Base/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleMaps/Maps/Frameworks\"",
+					"\"${PODS_ROOT}/OneSignal/iOS_SDK/OneSignalSDK/Framework\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PODS_ROOT)/Headers/Private/React-Core\"",
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/DoubleConversion\"",
+					"\"${PODS_ROOT}/Headers/Public/FBLazyVector\"",
+					"\"${PODS_ROOT}/Headers/Public/FBReactNativeSpec\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTRequired\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTTypeSafety\"",
+					"\"${PODS_ROOT}/Headers/Public/React-Core\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTBlob\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTText\"",
+					"\"${PODS_ROOT}/Headers/Public/React-cxxreact\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsi\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsiexecutor\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsinspector\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactCommon\"",
+					"\"${PODS_ROOT}/Headers/Public/Yoga\"",
+					"\"${PODS_ROOT}/Headers/Public/glog\"",
+				);
+				INFOPLIST_FILE = AlfaOnline/Info.plist;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional";
+				INFOPLIST_PREFIX_HEADER = "${BUILD_DIR}/GeneratedInfoPlistDotEnv.h";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 3.2.2;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.snapcode.alfaonline.sormland;
+				PRODUCT_NAME = Serviceresor;
+				SWIFT_OBJC_BRIDGING_HEADER = "AlfaOnline-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2D02E4971E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18F65B73904389BE2522D5D3 /* Pods-AlfaOnline-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/RNTextInputMask/RNTextInputMask/**",
+					"$(SRCROOT)/../node_modules/react-native-view-overflow/ios",
+					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/**",
+				);
+				INFOPLIST_FILE = "AlfaOnline-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)/System/Library/Frameworks\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)/System/Library/Frameworks\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.AlfaOnline-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		2D02E4981E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A93F47D81F6BAE208680AF4 /* Pods-AlfaOnline-tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/RNTextInputMask/RNTextInputMask/**",
+					"$(SRCROOT)/../node_modules/react-native-view-overflow/ios",
+					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/**",
+				);
+				INFOPLIST_FILE = "AlfaOnline-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)/System/Library/Frameworks\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)/System/Library/Frameworks\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.AlfaOnline-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		2D02E4991E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F013AF2E1B8B576FF708769 /* Pods-AlfaOnline-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/RNTextInputMask/RNTextInputMask/**",
+					"$(SRCROOT)/../node_modules/react-native-view-overflow/ios",
+					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/**",
+				);
+				INFOPLIST_FILE = "AlfaOnline-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)/System/Library/Frameworks\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)/System/Library/Frameworks\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.AlfaOnline-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlfaOnline-tvOS.app/AlfaOnline-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		2D02E49A1E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8594DEF46ADC131E32CF0DA0 /* Pods-AlfaOnline-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/RNTextInputMask/RNTextInputMask/**",
+					"$(SRCROOT)/../node_modules/react-native-view-overflow/ios",
+					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-text-input-mask/ios/**",
+				);
+				INFOPLIST_FILE = "AlfaOnline-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)/System/Library/Frameworks\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)/System/Library/Frameworks\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.AlfaOnline-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlfaOnline-tvOS.app/AlfaOnline-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA7B2BC4236848A200FFB75F /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "";
+				INFOPLIST_PREPROCESS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA7B2BC4236848A200FFB75F /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "";
+				INFOPLIST_PREPROCESS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAF95246235F1A6600E51A2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD6E86389F79DA8502C9E8A8 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = XWKP65T436;
+				ENABLE_BITCODE = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 3.2.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = se.snapcode.alfaonline.sormland.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAF95247235F1A6600E51A2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F5EE6EEAC3F7AC01473F17C /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = XWKP65T436;
+				ENABLE_BITCODE = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 3.2.2;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = se.snapcode.alfaonline.sormland.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AlfaOnlineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AlfaOnline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "AlfaOnline-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4971E0B4A5E006451C7 /* Debug */,
+				2D02E4981E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "AlfaOnline-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4991E0B4A5E006451C7 /* Debug */,
+				2D02E49A1E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AlfaOnline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAF95245235F1A6600E51A2C /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF95246235F1A6600E51A2C /* Debug */,
+				DAF95247235F1A6600E51A2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
